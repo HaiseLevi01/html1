@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Coaching Center</title>
+</head>
+<body>
+    <header>
+        <h1>Online Coaching Center</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <center>
+    <img src="https://images.unsplash.com/photo-1453906971074-ce568cccbc63?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHN0dWR5aW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="cc" >
+    </center>
+    <main>
+        <section class="courses">
+            <h2 align = "Center">Featured Courses</h2>
+            <div class="course">
+                <h3 align = "Center">Mathematics Fundamentals</h3>
+                <p align = "center">Learn the basics of mathematics in this comprehensive course.</p>
+            </div>
+            <div class="course">
+                <h3 align = "center">Programming for Beginners</h3>
+                <p align = "center">Start your coding journey with this beginner-friendly programming course.</p>
+            </div>
+            <!-- Add more course listings as needed -->
+        </section>
+        <section class="about"> 
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Online Coaching Center. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

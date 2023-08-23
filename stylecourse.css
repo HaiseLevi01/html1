@@ -1,0 +1,46 @@
+/* Styles for the course page */
+.course-header {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.course-header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-info {
+    margin-top: 1rem;
+}
+
+.course-info h1 {
+    font-size: 2.5rem;
+}
+
+.course-info p {
+    margin: 1rem 0;
+    color: #666;
+}
+
+.course-details {
+    padding: 4rem 0;
+}
+
+.course-details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.course-details ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+}
+
+.related-courses {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+/* Additional styles as needed */
